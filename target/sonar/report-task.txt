@@ -1,0 +1,6 @@
+projectKey=com.movie:movie
+serverUrl=http://localhost:9000
+serverVersion=6.5.0.27846
+dashboardUrl=http://localhost:9000/dashboard/index/com.movie:movie
+ceTaskId=AXBrQXA2XnET-4QZNjSN
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AXBrQXA2XnET-4QZNjSN
