@@ -2,14 +2,13 @@ package com.cg.movie.bean;
 
 import java.time.LocalDate;
 
-public class Admin
-{
+public class Admin {
 	private int adminId;
 	private String adminName;
 	private String adminPassword;
 	private LocalDate dateOfBirth;
 	private String adminContact;
-	
+
 	public Admin(int adminId, String adminName, String adminPassword, LocalDate dateOfBirth, String adminContact) {
 		super();
 		this.adminId = adminId;
@@ -17,8 +16,7 @@ public class Admin
 		this.adminPassword = adminPassword;
 		this.dateOfBirth = dateOfBirth;
 		this.adminContact = adminContact;
-	}	
-	
+	}
 
 	public Admin() {
 		super();
@@ -63,8 +61,5 @@ public class Admin
 	public void setAdminContact(String adminContact) {
 		this.adminContact = adminContact;
 	}
-	
-	
 
-	
 }

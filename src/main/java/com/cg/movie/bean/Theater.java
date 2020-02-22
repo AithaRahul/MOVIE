@@ -2,18 +2,17 @@ package com.cg.movie.bean;
 
 import java.util.List;
 
-public class Theater
-{
-	
+public class Theater {
+
 	private int theaterId;
 	private String theaterName;
 	private String theaterCity;
 	private List<Movie> listOfmovies;
 	private List<Screen> listOfScreens;
 	private String managerName;
-    private String managerContact;
-	
-    public Theater(int theaterId, String theaterName, String theaterCity, List<Movie> movies,
+	private String managerContact;
+
+	public Theater(int theaterId, String theaterName, String theaterCity, List<Movie> movies,
 			List<Screen> listOfScreens, String managerName, String managerContact) {
 		super();
 		this.theaterId = theaterId;
@@ -84,10 +83,5 @@ public class Theater
 	public void setManagerContact(String managerContact) {
 		this.managerContact = managerContact;
 	}
-    
-   
-    
-    
+
 }
-
-
